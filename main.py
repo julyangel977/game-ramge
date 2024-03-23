@@ -35,6 +35,7 @@ while running:
             if target_x < mouse_x < target_x + target_width and target_y < mouse_y < target_y + target_height:
                 target_x = random.randint(0, SCREEN_WIDTH - target_width)
                 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
+                score += 1
     target_x += target_speed_x
     target_y += target_speed_y
     if target_x <= 0 or target_x >= (SCREEN_WIDTH - target_width):
