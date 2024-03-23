@@ -1,1 +1,1 @@
-# game-ramge
+# game-range
