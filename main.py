@@ -9,7 +9,7 @@ pygame.display.set_caption("Kill Python")
 icon = pygame.image.load("Images/python.jpg")
 pygame.display.set_icon(icon)
 
-target_image = pygame.image.load(“Images/target_python.jpg”)
+target_image = pygame.image.load("Images/target_python.jpg")
 target_width = 80
 target_height = 80
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
