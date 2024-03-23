@@ -1,6 +1,6 @@
 import pygame
 import random
-pygame.init
+pygame.init()
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
@@ -26,4 +26,4 @@ running = True
 while running:
     pass
 
-pygame.quit
+pygame.quit()
